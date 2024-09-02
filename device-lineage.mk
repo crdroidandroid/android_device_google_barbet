@@ -6,6 +6,10 @@
 
 $(call inherit-product, device/google/redbull/device-lineage.mk)
 
+# Codec2
+PRODUCT_PACKAGES += \
+    libmedia_ecoservice.vendor
+
 # Nos
 PRODUCT_PACKAGES += \
     libnos:64 \
@@ -20,6 +24,7 @@ PRODUCT_PACKAGES += \
     nos_app_keymaster:64 \
     nos_app_keymaster_ctdl:64 \
     nos_app_weaver:64
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-V2-ndk.vendor:64
