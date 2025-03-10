@@ -6,6 +6,7 @@
 
 $(call inherit-product, device/google/redbull/device-lineage.mk)
 
-# Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.7-service-google
+
+# CHRE
+$(call soong_config_set,chre,chre_daemon_dsp_library,//vendor/google/barbet:libadsprpc)
+
