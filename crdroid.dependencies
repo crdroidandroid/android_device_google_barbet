@@ -6,9 +6,9 @@
     "remote": "github"
   },
   {
-    "repository": "crdroidandroid/proprietary_android_vendor_google_redfin",
-    "target_path": "vendor/google/redfin",
-    "branch": "main",
+    "repository": "crdroidandroid/proprietary_android_vendor_google_barbet",
+    "target_path": "vendor/google/barbet",
+    "branch": "17.0",
     "remote": "crdroid-gitlab"
-    }
+  }
 ]
